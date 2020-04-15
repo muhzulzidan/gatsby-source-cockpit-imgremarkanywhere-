@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "@fika/gatsby-source-cockpit@1.1.2",
+      "/home/za/Desktop/cockpit-blog"
+    ]
+  ],
+  "_from": "@fika/gatsby-source-cockpit@1.1.2",
+  "_id": "@fika/gatsby-source-cockpit@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-QbOWmmzgKdORE5oXFP6tWYZksO09IFeNndHP82OJVZKqUhDd5e7KGeBpAw7ryiCz9d8lPA6ZJ2X+CCkfTIr2kg==",
+  "_location": "/@fika/gatsby-source-cockpit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@fika/gatsby-source-cockpit@1.1.2",
+    "name": "@fika/gatsby-source-cockpit",
+    "escapedName": "@fika%2fgatsby-source-cockpit",
+    "scope": "@fika",
+    "rawSpec": "1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@fika/gatsby-source-cockpit/-/gatsby-source-cockpit-1.1.2.tgz",
+  "_spec": "1.1.2",
+  "_where": "/home/za/Desktop/cockpit-blog",
+  "author": {
+    "name": "Fika Productions",
+    "email": "info@fikaproductions.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fikaproductions/fika-gatsby-source-cockpit/issues"
+  },
+  "dependencies": {
+    "gatsby-node-helpers": "^0.3.0",
+    "gatsby-source-filesystem": "^2.0.5",
+    "html-to-react": "^1.3.4",
+    "mime": "^2.3.1",
+    "react-styling": "^1.6.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sanitize-html": "^1.20.0",
+    "slugify": "^1.3.4",
+    "string-hash": "^1.1.3"
+  },
+  "description": "This is a Gatsby version 2.x.x source plugin that feeds the GraphQL tree with Cockpit Headless CMS collections and singletons data. Actually, it supports querying raw texts (and any trivial field types), Markdown, images, galleries, assets, sets, repeaters, layout(-grid)s (currently only without nested images/assets), objects, linked collections and internationalization.",
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "1.16.0"
+  },
+  "homepage": "https://github.com/fikaproductions/fika-gatsby-source-cockpit",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "cockpit",
+    "headless-cms",
+    "fika",
+    "productions"
+  ],
+  "license": "GPL-3.0-or-later",
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "gatsby-node.js",
+  "name": "@fika/gatsby-source-cockpit",
+  "peerDependencies": {
+    "gatsby": "2.x",
+    "gatsby-source-filesystem": "2.x",
+    "react": ">16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikaproductions/fika-gatsby-source-cockpit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.2"
+}
